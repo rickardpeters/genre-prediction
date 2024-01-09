@@ -1,0 +1,24 @@
+name: liu-text-mining
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - gensim=4.3.2
+  - jupyter
+  - jupyterlab
+  - matplotlib>=3.7.0
+  - nbgrader>=0.9.0
+  - notebook>=7.0.0
+  - numpy>=1.25.0
+  - pandas>=2.1.0
+  - pip
+  - pip:
+      - git+https://github.com/victorlee0505/ctransformers.git@790ea3564f539e509c4c07894b8843b35811797d
+  - pyLDAvis>=3.4.0
+  - pyrsistent  # notebook dependency that isn't installed automatically?!
+  - pytorch>=2.0.0
+  - scikit-learn>=1.3.0
+  - seaborn>=0.13.0
+  - spacy>=3.6.0
+  - transformers>=4.34.0
